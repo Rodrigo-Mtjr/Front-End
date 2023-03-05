@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Aula 06 - Tabelas 1.1</title>
+</head>
+
+<body>
+  <h1 align="center"> Criando Tabelas</h1> <!--ALINHANDO O TEXTO NO CENTRO DA PAGINA-->
+  <table border="2" bgcolor="black" align="center" widht="50%"> <!--CRIANDO UMA TABELA COM 2 DE BORDA, COR DA BORDA CINZA, ALINHANDA AO CENTRO, COM LARGURA DE 50%-->
+
+    <!--PREENCHENCO A TABELA CRIADA, LINHA 1, COLUNAS-->
+    <tr bgcolor="white"> <!--DEFININDO A COR DO FUNDO DA LINHA-->
+      <td align="center">CÓDIGO </td>
+      <td align="center">PRODUTOS</td>
+      <td align="center">PRODUTOS</td>
+      <td align="center">IMAGEM PRODUTOS</td>
+    </tr>
+
+    <!--PREENCHENCO A TABELA CRIADA, DEMAIS LINHA REFERENTE AS COLUNAS CRIADAS-->
+    <tr bgcolor="white"> <!--DEFININDO A COR DO FUNDO DA LINHA-->
+      <td align="center">01</td> <!--ACRESCENTA AS PALAVRAS SEM QUEBRAR LINHAS-->
+      <td align="center">NOTEBOOK </td>
+      <td align="center">R$ 4.500,00</td>
+      <td align="center"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/13/notebook-303161_1280.png" width="50"></td>
+    </tr>
+
+    <tr bgcolor="white"> <!--DEFININDO A COR DO FUNDO DA LINHA-->
+      <td align="center">02</td>
+      <td align="center">PLAY 5 </td>
+      <td align="center">R$ 4.299,00</td>
+      <td align="center"><img src="https://images.tcdn.com.br/img/img_prod/801864/console_playstation_5_all_digital_ps5_3_1_20201009104253.png" width="50"></td>
+    </tr>
+
+    <tr bgcolor="white">
+      <td align="center"> DESCONTO </td>
+      <!--CRIANDO UMA LINHA, AONDE A INFORMAÇÃO DELA, PEGUE 3 DAS 4 LINHAS EXISTENTES DA TABELA, COM A FUNÇÃO COLSPAN = 3-->
+      <td colspan="3" align="center"> Desconto 10% no dinheiro </td>
+    </tr>
+
+    <tr bgcolor="white">
+      <td align="center"> VALOR TOTAL: </td>
+      <td colspan="3" align="center"> R$ 8.799,00 SEM DESCONTO </td>
+    </tr>
+
+    <tr bgcolor="white">
+      <td align="center"> VALOR COM DESCONTO 10%: </td>
+      <td align="center" colspan="3"> R$ 7.919,00 COM DESCONTO </td>
+    </tr>
+  </table>
+</body>
+
+</html>
